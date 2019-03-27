@@ -34,7 +34,7 @@ int main() {
 
   long err = 0;
   for (long i = 0; i < N; i++) err = std::max(err, std::abs(B0[i] - B1[i]));
-  printf("error = %e\n", err);
+  printf("error = %ld\n", err);
 
   free(A);
   free(B0);
