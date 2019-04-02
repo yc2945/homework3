@@ -64,8 +64,7 @@ void scan_omp(long* prefix_sum, const long* A, long n) {
 }
 
 int main() {
-  // long N = 100000000;
-  long N = 20; 
+  long N = 100000000;
   long* A = (long*) malloc(N * sizeof(long));
   long* B0 = (long*) malloc(N * sizeof(long));
   long* B1 = (long*) malloc(N * sizeof(long));
